@@ -29,7 +29,7 @@ var createRandom = function(){
     setTimeout(function(){
         // append div to the body
         document.getElementsByTagName('body')[0].appendChild(div);        
-    },10);
+    },1000);
 
     // default start position
     div.x = x;
